@@ -261,7 +261,7 @@
                             $('#userName').val(data.name);
                             $('#userEmail').val(data.email);
                             $('#userRole').val(data.role);
-                            $('#userMode').val(data.Mode);
+                            $('#userMode').val(data.mode);
                             $('#editUserModal').modal('show');
                         },
                         error: function() {
